@@ -5,3 +5,5 @@ r_dir_file(updater_app, storage_file)
 # Allow to install OTA's from local storage
 allow updater_app backuptool:process noatsecure;
 allow updater_app media_rw_data_file:file { open read write getattr };
+
+allow updater_app cache_file:file create_file_perms;
