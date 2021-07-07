@@ -2,3 +2,6 @@
 allow platform_app ota_package_file:dir { read open search };
 
 allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;
+
+# Allow exTHmUI's custom properties to be changed
+allow platform_app system_prop:property_service set;
