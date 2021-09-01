@@ -6,3 +6,6 @@ type dc_dimming_service, system_api_service, system_server_service, service_mana
 
 # App Lock
 type app_lock_service, system_api_service, system_server_service, service_manager_type;
+
+# Optimized Charge Control
+type optimizedcharge_service, system_api_service, system_server_service, service_manager_type;

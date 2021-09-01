@@ -1,0 +1,1 @@
+type hal_chargecontrol_hwservice, hwservice_manager_type;

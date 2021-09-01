@@ -1,0 +1,2 @@
+# Optimized charge HAL
+/(vendor|system/vendor)/bin/hw/vendor\.kscope\.chgctrl@1\.0-service u:object_r:hal_chargecontrol_default_exec:s0

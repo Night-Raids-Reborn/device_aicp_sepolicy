@@ -1,5 +1,8 @@
 pocket                                    u:object_r:pocket_service:s0
 
+# Optimized Charge Control
+optimizedcharge                           u:object_r:optimizedcharge_service:s0
+
 # DC Dimming
 dc_dim_service                            u:object_r:dc_dimming_service:s0
 # App Lock
