@@ -2,6 +2,6 @@
 # This policy configuration will be used by all products that
 # inherit from Lineage
 #
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/aicp/sepolicy/common/private
 
