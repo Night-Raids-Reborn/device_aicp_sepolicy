@@ -6,4 +6,4 @@ allow system_server vendor_sysfs_dc_dim:file rw_file_perms;
 add_service(system_server, dc_dimming_service);
 
 # Applock
-add_service(system_server, applock_service);
+add_service(system_server, app_lock_service);
