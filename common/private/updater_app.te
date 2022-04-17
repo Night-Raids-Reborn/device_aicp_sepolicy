@@ -16,3 +16,5 @@ allow updater_app system_update_service:service_manager find;
 
 allow updater_app system_data_file:dir r_dir_perms;
 allow updater_app user_profile_root_file:dir r_dir_perms;
+
+allow updater_app system_app_data_file:file { read write getattr };
