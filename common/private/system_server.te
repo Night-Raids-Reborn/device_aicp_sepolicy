@@ -9,4 +9,4 @@ add_service(system_server, dc_dimming_service);
 add_service(system_server, app_lock_service);
 
 # Optimized Charge Control
-hal_client_domain(system_server, hal_chargecontrol)
+hal_client_domain(system_server, hal_chargecontrol);

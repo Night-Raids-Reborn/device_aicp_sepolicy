@@ -1,1 +1,1 @@
-vendor.kscope.chgctrl::IChargeControl                                   u:object_r:hal_chargecontrol_hwservice:s0
+vendor.lineage.chgctrl::IChargeControl                                   u:object_r:hal_chargecontrol_hwservice:s0
