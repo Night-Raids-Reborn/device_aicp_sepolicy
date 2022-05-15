@@ -6,4 +6,10 @@ r_dir_file(updater_app, storage_file)
 allow updater_app backuptool:process noatsecure;
 allow updater_app media_rw_data_file:file { open read write getattr };
 
+# Allow access to /cache/recovery/uncrypt_file
 allow updater_app cache_file:file create_file_perms;
+allow updater_app cache_file:dir r_dir_perms;
+allow updater_app cache_recovery_file:dir rw_dir_perms;
+allow updater_app cache_recovery_file:file create_file_perms;
+
+allow updater_app system_update_service:service_manager find;
