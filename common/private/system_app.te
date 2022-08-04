@@ -3,3 +3,11 @@ allow system_app selinuxfs:file r_file_perms;
 
 # Allow SetupWizard to set recovery update prop
 set_prop(system_app, recovery_update_prop)
+
+# Update_engine and Updater app rules
+binder_call(system_app, update_engine)
+
+allow system_app ota_package_file:dir getattr;
+allow system_app ota_package_file:dir search;
+allow system_app ota_package_file:dir rw_dir_perms;
+allow system_app ota_package_file:file create_file_perms;
