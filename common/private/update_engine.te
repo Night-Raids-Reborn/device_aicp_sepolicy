@@ -14,3 +14,6 @@ r_dir_file(update_engine, storage_file)
 
 # Allow mount and unmount of system partition
 allow update_engine labeledfs:filesystem { mount unmount };
+
+# Additional A13 rules
+allow update_engine fuse:file { getattr open read };
